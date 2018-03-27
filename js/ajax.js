@@ -14,7 +14,6 @@ function ajax(json){
     if(!json.url)return;
     json.data=json.data || {};
     json.type=json.type || 'get';
-
     var timer=null;
 
     if(window.XMLHttpRequest){

@@ -13,7 +13,7 @@ var server=http.createServer(function (req,res) {
         var url=obj.pathname;
         var GET=obj,query
         var post=querystring.parse(str)
-        var filename='.'+url;;
+        var filename='../js'+url;;
         fs.readFile(filename,function (err,data) {
             if(err){
                 res.write("404")
