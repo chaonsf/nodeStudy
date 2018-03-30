@@ -22,3 +22,4 @@ server.use("/",function (req,res) {
    res.send("opl")
 })
 server.listen(8081)
+/*delete res.session['xxx'];删除session*/
